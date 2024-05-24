@@ -37,11 +37,11 @@ export function AsideMenu() {
   ]
 
   return (
-    <aside className='flex flex-col justify-between min-w-[300px] bg-white dark:bg-[#252525] h-screen  border-r-2 border-zinc-300 dark:border-zinc-900'>
+    <aside className='flex flex-col justify-between min-w-[300px] bg-white dark:bg-[#252525] h-screen  border-r-2 border-zinc-300 dark:border-zinc-900 fixed z-10 duration-300'>
       <div>
         <header className="flex items-center justify-center gap-2 pt-4">
           <ShoppingCartIcon />
-          <h1 className="font-semibold text-2xl dark:text-white">E-Commerce</h1>
+          <h1 className="font-semibold text-2xl dark:text-white duration-300">E-Commerce</h1>
         </header>
 
         <nav className="ml-4 mt-8 flex flex-col gap-4">
