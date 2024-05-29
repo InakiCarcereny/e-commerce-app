@@ -7,7 +7,7 @@ import { AddToFavorites } from "./AddToFavorites";
 export function ProductsHome({products}) {
 
   return (
-      products.slice(0, 20).map((product) => (
+      products.slice(0, 4).map((product) => (
         <li 
         className="bg-white dark:bg-[#252525] shadow-xl px-4 py-2 rounded-xl flex flex-col items-center gap-4 cursor-pointer duration-300"
         key={product.id}>

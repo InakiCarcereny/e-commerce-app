@@ -9,8 +9,10 @@ import { Favorites } from './routes/Favorites'
 import { ErrorPage } from './routes/ErrorPage'
 import { Account } from './routes/Account'
 import { Layout } from './routes/Layout'
+import { ProductData } from './routes/ProductData'
+import  products  from "./mocks/products.json";
 
-
+export const productsList = products.products;
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />
+      },
+      {
+        path: '/:id',
+        element: <ProductData />
       },
       {
         path: '/favorites',
