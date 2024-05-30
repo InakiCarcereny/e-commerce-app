@@ -18,8 +18,8 @@ export function AsideMenu() {
     },
     {
       id: 2,
-      name: "Search",
-      path: "/search",
+      name: "Products",
+      path: "/products",
       icon: <SearchIcon />
     },
     {

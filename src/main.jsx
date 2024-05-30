@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 
@@ -11,6 +10,8 @@ import { Account } from './routes/Account'
 import { Layout } from './routes/Layout'
 import { ProductData } from './routes/ProductData'
 import  products  from "./mocks/products.json";
+import { FiltersProvider } from './context/filters'
+import { Products } from './routes/Products'
 
 export const productsList = products.products;
 
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: '/account',
         element: <Account />
+      },
+      {
+        path: '/products',
+        element: <Products />
       }
     ]
   }
@@ -42,7 +47,7 @@ const router = createBrowserRouter([
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <FiltersProvider>
     <RouterProvider router={router} />
-  </React.StrictMode>,
+  </FiltersProvider>
 )

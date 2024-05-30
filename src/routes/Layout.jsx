@@ -5,8 +5,8 @@ export function Layout () {
 
   return (
     <div className='flex' >
-    <AsideMenu />
-    <Outlet />
-  </div >
+      <AsideMenu />
+      <Outlet/>
+    </div >
   )
 }
