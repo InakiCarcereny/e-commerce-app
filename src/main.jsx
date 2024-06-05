@@ -11,7 +11,10 @@ import { Layout } from './routes/Layout'
 import { ProductData } from './routes/ProductData'
 import  products  from "./mocks/products.json";
 import { FiltersProvider } from './context/filters'
+import { CartProductProvider } from './context/cartProduct'
+import { CartProvider } from './context/cart'
 import { Products } from './routes/Products'
+import { Cart } from './routes/Cart'
 
 export const productsList = products.products;
 
@@ -40,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: '/products',
         element: <Products />
+      },
+      {
+        path: '/cart',
+        element: <Cart />
       }
     ]
   }
@@ -48,6 +55,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <FiltersProvider>
-    <RouterProvider router={router} />
+    <CartProductProvider>
+      <CartProvider>
+        <RouterProvider router={router} />
+      </CartProvider>
+    </CartProductProvider>
   </FiltersProvider>
 )
