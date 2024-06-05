@@ -25,7 +25,7 @@ export function ProductData() {
         <div className="ml-4 flex items-center">
           <img 
           className="rounded-xl h-[600px] w-auto"
-          src="https://imgs.search.brave.com/BfGpBiL-Zgpppl7eLZ-WABrWp-XOYA2f2KEKUteGWek/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS1jZG4uaHlwYi5z/dC9odHRwczovL2h5/cGViZWFzdC5jb20v/aW1hZ2UvMjAyMi8w/Ni9qYXNtaW5lLWpv/cmRhbi1haXItam9y/ZGFuLTEtZ3JlZW4t/Y3JvYy1wZS1waWN0/dXJlcy0xLmpwZz9j/YnI9MSZxPTkw" alt={products.title} />
+          src={products.thumbnail} alt={products.title} />
         </div>
         <div className="flex flex-col justify-center mr-4 gap-4">
           <h1 className="text-4xl font-bold dark:text-white">{products.title}</h1>

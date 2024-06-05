@@ -10,7 +10,7 @@
         "stock":54,
         "brand":"Golden",
         "category":"home-decoration",
-        "thumbnail":"https://i.dummyjson.com/data/products/30/thumbnail.jpg",
+        "thumbnail":"https://imgs.search.brave.com/5yLUD39TyASHLt1O0GqdqHR9dMctjBMzLT4C0-xLs0M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzM2NTE3OTA4L3Iv/aWwvMDFlZDM5LzQz/NDMxMTQ4MzUvaWxf/NjAweDYwMC40MzQz/MTE0ODM1XzVvY2Mu/anBn",
         "images":[
            "https://i.dummyjson.com/data/products/30/1.jpg",
            "https://i.dummyjson.com/data/products/30/2.jpg",
@@ -28,9 +28,9 @@
         "stock":83,
         "brand":"Apple",
         "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "thumbnail":"https://imgs.search.brave.com/Bm-I8b80C767bjA4ZGsvRhu4dQZN3lzm0FYprlsodvQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bWFjc3RhdGlvbi5j/b20uYXIvaW1nL3By/b2R1Y3Rvcy8yOTYw/LTEuanBn",
         "images":[
-           "https://i.dummyjson.com/data/products/6/1.png",
+           "https://imgs.search.brave.com/d_TMgVjNJ-fnLkEUDQf2BZbZuhn_WydumjPBz4AcoR4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MjY1NzAyMDc3NzIt/Nzg0ZDM2MDg0NTEw/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRWOGZH/MWhZMkp2YjJ0OFpX/NThNSHg4TUh4OGZE/QT0",
            "https://i.dummyjson.com/data/products/6/2.jpg",
            "https://i.dummyjson.com/data/products/6/3.png",
            "https://i.dummyjson.com/data/products/6/4.jpg"
