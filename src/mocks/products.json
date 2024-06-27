@@ -10,7 +10,7 @@
         "stock":54,
         "brand":"Golden",
         "category":"home-decoration",
-        "thumbnail":"https://imgs.search.brave.com/5yLUD39TyASHLt1O0GqdqHR9dMctjBMzLT4C0-xLs0M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzM2NTE3OTA4L3Iv/aWwvMDFlZDM5LzQz/NDMxMTQ4MzUvaWxf/NjAweDYwMC40MzQz/MTE0ODM1XzVvY2Mu/anBn",
+        "thumbnail":"https://imgs.search.brave.com/iBrYorqt2IVCthMsyZD9Lv8YChxo7B5rcCEba7BNBSI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzM2NTE3OTA4L3Iv/aWwvMDFlZDM5LzQz/NDMxMTQ4MzUvaWxf/NjAweDYwMC40MzQz/MTE0ODM1XzVvY2Mu/anBn",
         "images":[
            "https://i.dummyjson.com/data/products/30/1.jpg",
            "https://i.dummyjson.com/data/products/30/2.jpg",
@@ -46,7 +46,7 @@
         "stock":34,
         "brand":"Apple",
         "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+        "thumbnail":"https://imgs.search.brave.com/HpKilj7kD_MuK2VX8mA4jP-TLsoHGqyJgBGpj14-R0I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9mZG4y/LmdzbWFyZW5hLmNv/bS92di9waWNzL2Fw/cGxlL2FwcGxlLWlw/aG9uZS14LW5ldy0x/LmpwZw",
         "images":[
            "https://i.dummyjson.com/data/products/2/1.jpg",
            "https://i.dummyjson.com/data/products/2/2.jpg",
@@ -56,7 +56,7 @@
      },
      {
         "id":3,
-        "title":"Samsung Universe 9",
+        "title":"Samsung Galaxy Note 9",
         "description":"Samsung's new variant which goes beyond Galaxy to the Universe",
         "price":1249,
         "discountPercentage":15.46,
@@ -64,7 +64,7 @@
         "stock":36,
         "brand":"Samsung",
         "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+        "thumbnail":"https://imgs.search.brave.com/sKU5ylO57FZFvSW5x8VEg_nmggBDIt0kvJlYye2viTY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLmJs/b2dzLmVzLzA3NTM3/My9ub3RlLTkvNDUw/XzEwMDAud2VicA",
         "images":[
            "https://i.dummyjson.com/data/products/3/1.jpg"
         ]

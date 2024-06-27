@@ -14,7 +14,7 @@ export function ProductsHome({products}) {
           <Link className="flex flex-col items-center gap-4" to={`/${product.id}`}>
             <span className="font-semibold dark:text-white text-xl">{product.title}</span>
 
-            <img className="rounded-xl" src="https://imgs.search.brave.com/BfGpBiL-Zgpppl7eLZ-WABrWp-XOYA2f2KEKUteGWek/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS1jZG4uaHlwYi5z/dC9odHRwczovL2h5/cGViZWFzdC5jb20v/aW1hZ2UvMjAyMi8w/Ni9qYXNtaW5lLWpv/cmRhbi1haXItam9y/ZGFuLTEtZ3JlZW4t/Y3JvYy1wZS1waWN0/dXJlcy0xLmpwZz9j/YnI9MSZxPTkw" alt={product.title} />
+            <img className="rounded-xl" src={product.thumbnail} alt={product.title} />
 
             <div className="flex items-center dark:text-white font-bold gap-8">
               <p>{product.price} $</p>
